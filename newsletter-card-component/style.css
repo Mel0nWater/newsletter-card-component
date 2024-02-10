@@ -1,23 +1,32 @@
 * {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0;
   margin: 10px;
   box-sizing: border-box;
 }
 
-/* write your CSS here */
+body{
+  background-color: rgb(200, 200, 200);
+}
+
+.window{
+  background-color:white;
+  border-width: 10px;
+  border-radius: 2%;
+
+}
 
 /* TODO: make h1 affected */
 h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  background-color: rgba(70, 91, 156, 0.74);
   text-align: center;
 }
 
 p{
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
+
+
 
 #subscribe-button{
   color: white;
