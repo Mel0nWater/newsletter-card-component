@@ -9,14 +9,15 @@ body{
   background-color: rgb(200, 200, 200);
 }
 
-.window{
+#window{
   background-color:white;
   border-width: 10px;
   border-radius: 2%;
-
+  min-width: 50px;
+  max-height: 15rem;
+  overflow: auto;
 }
 
-/* TODO: make h1 affected */
 h1{
   font-weight: bolder;
   text-align: center;
@@ -26,7 +27,15 @@ p{
   text-align: center;
 }
 
+#email-container{
+  text-align: center;
+  display:flex;
+  justify-content: center; 
+}
 
+#email{
+  
+}
 
 #subscribe-button{
   color: white;
@@ -34,3 +43,5 @@ p{
   border-color: black;
 
 }
+
+/*checkbox */
