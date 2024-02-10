@@ -12,9 +12,8 @@ body{
 #window{
   background-color:white;
   border-width: 10px;
+  border-style: solid;
   border-radius: 2%;
-  min-width: 50px;
-  max-height: 15rem;
   overflow: auto;
 }
 
@@ -31,17 +30,27 @@ p{
   text-align: center;
   display:flex;
   justify-content: center; 
-}
+  align-items: center; /* Vertically center the input field */
 
-#email{
-  
 }
 
 #subscribe-button{
   color: white;
   background-color:black;
-  border-color: black;
+  border:none;
+  box-shadow: none;
+}
+#subscribe-button, #email{
+  padding: 10px;
+}
 
+#subscribe-button, #email-container{
+  border-radius:3px;
 }
 
 /*checkbox */
+#checkbox-div{
+  font-size: 10px;
+  display: flex;
+  align-items:center;
+}
