@@ -1,1 +1,2 @@
-A newsletter component exercise
+#Newsletter Component
+  A newsletter component exercise
