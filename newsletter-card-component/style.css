@@ -1,7 +1,6 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0;
-  margin: 10px;
   box-sizing: border-box;
 }
 
@@ -11,7 +10,7 @@ body{
 
 #window{
   background-color:white;
-  border-width: 10px;
+  border-width: 1px;
   border-style: solid;
   border-radius: 2%;
   overflow: auto;
@@ -42,6 +41,7 @@ p{
 }
 #subscribe-button, #email{
   padding: 10px;
+  margin:5px;
 }
 
 #subscribe-button, #email-container{
@@ -52,5 +52,7 @@ p{
 #checkbox-div{
   font-size: 10px;
   display: flex;
+  justify-content:center;
   align-items:center;
+  margin-bottom: 10px;
 }
